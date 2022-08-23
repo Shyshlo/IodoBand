@@ -23,7 +23,7 @@ function Members() {
 
 <div className='story-bg'>
 <div className='story'>
-    <img src={Lex} width='200px' height='200px' alt='photo' className='story-image'/>
+    <img src={Lex} width='200px' height='200px' alt='photo' className='story-image' data-aos="flip-up"/>
     <div className='story-text'>
         <h1 className='story-heading'>Йодо Алексей</h1>
         <p className="story-paragraph">Вокалист. Автор песен. Звукорежиссер.
@@ -35,7 +35,7 @@ function Members() {
   
         <div className='story-bg'>
 <div className='story'>
-    <img src={Vladimir} width='200px' height='200px' alt='photo' className='story-image'/>
+    <img src={Vladimir} width='200px' height='200px' alt='photo' className='story-image' data-aos="flip-up"/>
     <div className='story-text'>
         <h1 className='story-heading'>Козин Владимир</h1>
         <p className="story-paragraph">Прекрасный гитарист работающий и по сей день сессионно с артистами разного уровня. Крутой аранжировщик и саунд дизайнер.
@@ -48,7 +48,7 @@ function Members() {
      
 <div className='story-bg'>
 <div className='story'>
-    <img src={Dmitriy} width='200px' height='200px' alt='photo' className='story-image'/>
+    <img src={Dmitriy} width='200px' height='200px' alt='photo' className='story-image' data-aos="flip-up"/>
     <div className='story-text'>
         <h1 className='story-heading'>Воронин Дмитрий</h1>
         <p className="story-paragraph">Тёмный,живущий среди Светлых,принимающий их обличаи. Хороший басист, немногословен, значит знает своё дело.</p>
@@ -61,7 +61,7 @@ function Members() {
  
     <div className='story-bg'>
     <div className='story'>
-    <img src={Vitaliy} width='200px' height='200px' alt='photo' className='story-image'/>
+    <img src={Vitaliy} width='200px' height='200px' alt='photo' className='story-image' data-aos="flip-up"/>
      <div className='story-text'>
         <h1 className='story-heading'>Боровков Виталий</h1>
         <p className="story-paragraph">Клавишник, текстовик, композитор, аранжировщик, тусовщик и стиляга 
@@ -72,7 +72,7 @@ function Members() {
 
     <div className='story-bg'>
     <div className='story'>
-    <img src={Alexey} width='200px' height='200px' alt='photo' className='story-image'/>
+    <img src={Alexey} width='200px' height='200px' alt='photo' className='story-image' data-aos="flip-up"/>
      <div className='story-text'>
         <h1 className='story-heading'>Шабан Алексей</h1>
         <p className="story-paragraph">Работал во многих коллективах у нас и за рубежом. Также занимается обучением игре на самом драйвом инструменте.

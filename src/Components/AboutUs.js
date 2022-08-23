@@ -1,5 +1,7 @@
+import { Carousel } from 'bootstrap';
 import React from 'react';
 import AboutUsText from './AboutUsText';
+
 
 import Members from './Members';
 import Slider from './Slider';
@@ -20,6 +22,7 @@ const AboutUs = () => {
     <Slider />
     <AboutUsText />
     <Members />
+  
     </>
     )
 }

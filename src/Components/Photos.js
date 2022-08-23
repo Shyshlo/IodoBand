@@ -16,7 +16,7 @@ function Photos() {
     return(
   
         <div>
-    <div className='photosBackground'>
+    <div className='photosBackground' data-aos="flip-up" data-aos-duration="2000">
          <div class="title">
         <div class="corner-4-box">
             <div class="corner-4-textbox">

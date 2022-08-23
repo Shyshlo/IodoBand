@@ -12,7 +12,7 @@ function Questions() {
 
 
     return(
-        <div>
+        <div data-aos="fade-rigth" data-aos-duration="2000">
         
         {question.map((element => {
             const{id, question, description, showMore} = element;

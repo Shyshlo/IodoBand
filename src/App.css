@@ -95,6 +95,7 @@ nav {
     display: flex;
     justify-content: center;
     padding: 15px;
+    cursor: pointer;
     
     }
     .Link {
@@ -110,19 +111,21 @@ nav {
         color: #fff;
     }
     
+    .Link:active {
+        color: #443463 !important;
+    }
 .sliderShift{
     color: #777;
-    background-color: #fff;
+    background-color:#e5e3ef;
     width:fit-content;
     align-items: center;
 }
    
-
       /*О нас*/
 
 
       .colorp{
-        background-color: #e8e8e8;
+        background-color: #e5e3ef;
     }
 
     .aboutus{
@@ -207,7 +210,7 @@ nav {
     align-items: center;
 }
 .story-bg {
-    background-color: #e8e8e8;
+    background-color:#e5e3ef;
     padding: 1.5rem;
     margin: 1.5rem;
     width: 70%;
@@ -246,7 +249,7 @@ nav {
 .containerDelivery{
     display: flex;
     flex-direction: column;
-    background-color: #e8e8e8;
+    background-color:#e5e3ef;
   
   }
   
@@ -280,6 +283,7 @@ nav {
     color: #443463;
     margin: 5px;
   }
+
 
 
 /*footer*/
@@ -386,7 +390,7 @@ footer {
 /*Отзывы*/
 
 .reviewsBackground{
-    background-color: #e8e8e8;
+    background-color: #e5e3ef;
 }
 .wave_inner {
     display: flex;
@@ -486,7 +490,7 @@ footer {
     align-items: center;
     width: 100%;
     margin-bottom: 100px;
-    background-color: #e8e8e8;
+    background-color:#e5e3ef;
 
 
   }
@@ -569,7 +573,7 @@ footer {
 }
 
 .img {
-    background-color: #dfecf2;
+    background-color: #e5e3ef;
     height: 160px;
     transform: rotate(5deg);
     padding: 0px;

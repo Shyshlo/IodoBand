@@ -25,8 +25,15 @@ import Footer from './Components/Footer';
 import Video from './Components/Video';
 import Booknow from './Components/Booknow';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 
 function App() {
+
+  AOS.init()
+
   return (
     
 <>
@@ -34,6 +41,8 @@ function App() {
 <Video />
 
   <Router>
+
+
 
 
 <nav>

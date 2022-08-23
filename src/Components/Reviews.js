@@ -11,7 +11,7 @@ import rev8 from '../rev8.png';
 function Reviews() {
     return(
        
-        <div>
+        <div data-aos="flip-down" data-aos-duration="2000">
             <div className='reviewsBackground'>
             <div className="wave_inner">
 

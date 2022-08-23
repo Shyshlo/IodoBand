@@ -8,11 +8,12 @@ import coyote from '../Coyote.png';
 
 function Contacts() {
 
+
     return (
-        <div className='ContactsBlock'>
+        <div className='ContactsBlock' data-aos="fade-left" data-aos-duration="2000">
         <div className="Contacts-main-container">
             <div className="Contacts-container">
-                <div className='contaactsTitle'>
+                <div className='contaactsTitle' data-aos="fade-zoom-in">
             <h1 className='Home-contacts-header'>КОНТАКТЫ</h1>
               </div>
 
