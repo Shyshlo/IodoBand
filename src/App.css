@@ -813,6 +813,19 @@ flex-direction: column;
       .Link {
         font-size: 15px;
       }
+      .story-image {
+        margin-right: 0rem;
+    }
+    .story-heading {
+        text-align: center;
+    }
+    .story-paragraph {
+       text-align:justify;
+    }
+    .par4 {
+      text-align:justify;
+          
+      }
     }
     @media all and (max-width: 380px) {
         .title {
