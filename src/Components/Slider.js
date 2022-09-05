@@ -1,9 +1,9 @@
 
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import one from '../slider1.png';
-import two from '../slider2.png';
-import three from '../slider3.png';
+import one from '../slider1.jpg';
+import two from '../slider2.jpg';
+import three from '../slider3.jpg';
 
 
 
@@ -14,7 +14,7 @@ import three from '../slider3.png';
         <div className='sliderAll'>
         
    <Carousel>
-    <Carousel.Item style={{'height': '600px'}}>
+    <Carousel.Item style={{'height': '800px'}}>
         <img className='d-block w-100'
         src={one} alt='photo 1' />
         <Carousel.Caption style={{'color': '#000000', 'font-weight': 'bold', 'font-size': '20px'}}>
@@ -24,7 +24,7 @@ import three from '../slider3.png';
             <p className='sliderShift'>22.00</p>
         </Carousel.Caption>
     </Carousel.Item>
-    <Carousel.Item style={{'height': '600px'}}>
+    <Carousel.Item style={{'height': '800px'}}>
         <img className='d-block w-100'
         src={two} alt='photo 2' />
         <Carousel.Caption style={{ 'text': 'center','color': '#000000', 'font-weight': 'bold', 'font-size': '20px'}}>
@@ -33,7 +33,7 @@ import three from '../slider3.png';
 
         </Carousel.Caption>
     </Carousel.Item>
-    <Carousel.Item style={{'height': '600px'}}>
+    <Carousel.Item style={{'height': '800px'}}>
         <img className='d-block w-100'
         src={three} alt='photo 1' />
         <Carousel.Caption style={{'font-weight': 'bold', 'font-size': '20px'}}>
@@ -45,6 +45,7 @@ import three from '../slider3.png';
     
     </Carousel>
     </div>
+    
 )}
 
 export default Slider;
