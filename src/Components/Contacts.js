@@ -19,7 +19,7 @@ function Contacts() {
 
             <div className="Contacts-data-container">
                 <div className="Contacts-data-innerCont">
-                    <h3 className="Contacts-data-header tel">+375295555555</h3>
+                    <h3 className="Contacts-data-header tel">+375295687859</h3>
                     <p className="Contacts-data-par">viber</p>
                     <p className="Contacts-data-par">Telegram</p>
                     <p className="Contacts-data-par">whatsapp</p>
