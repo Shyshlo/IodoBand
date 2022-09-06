@@ -855,6 +855,9 @@ opacity: 0;
       .tributePhoto:hover{
     display: none;
     }
+    .video-container{
+        display: none;
+    }
     }
     @media all and (max-width: 380px) {
         .title {
