@@ -316,9 +316,11 @@ footer {
 /*Photos*/
 .photosBackground{
 
-    background-color: #000000;
+    background-color: 
+    
+#141414;
 
-  opacity: 0.9;
+
 }
 .title {
     display: flex;
@@ -328,7 +330,7 @@ footer {
 
 .photo_box {
         width: 250px;
-    padding: 5px;
+    padding: px;
 }
 
 .corner-4-box {
@@ -744,8 +746,29 @@ opacity: 0;
 }
 }
 
+/*Tribute*/
+
+.tributeTitle{
+    color: #dfc101;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 30px;
+    
+}
+.tributeLink{
+    color: #dfc101;
+}
 
 
+.tributePhoto{
+    transition: 1s;  position: relative;  opacity:0.7;
+    }
+    .tributePhoto:hover{
+        transform: scale(1.1);
+        transition: 1s all;
+        opacity:1.0; 
+    }
 
 
 @media all and (max-width: 1200px) {
@@ -757,8 +780,10 @@ opacity: 0;
         margin-bottom: 8px;
     }
 }
-@media all and (max-width: 1000px) {
-    
+@media all and (max-width: 1050px) {
+    nav {
+        flex-direction: column;
+           }
 
     .story-bg {
         transform: skewX(0);
@@ -773,9 +798,7 @@ opacity: 0;
     }
 }
 @media all and (max-width: 900px) {
-   nav {
-flex-direction: column;
-   }
+ 
 .aboutus {
     margin-top: 20px;
 }
@@ -783,9 +806,12 @@ flex-direction: column;
 .sliderAll, .BookNow {
     display: none;
 }
+
 }
 @media all and (max-width: 650px) {
-    
+    .tributeTitle{
+        font-size: 20px;
+    }
 }
 @media all and (max-width: 500px) {
     html {
@@ -826,6 +852,9 @@ flex-direction: column;
       text-align:justify;
           
       }
+      .tributePhoto:hover{
+    display: none;
+    }
     }
     @media all and (max-width: 380px) {
         .title {
@@ -841,7 +870,10 @@ flex-direction: column;
             height: 1rem;
             margin: 0.1rem;
         }
-
+        .tributeTitle{
+            font-size: 15px;
+          
+        }
 
 
 }
