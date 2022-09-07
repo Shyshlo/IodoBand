@@ -1,5 +1,5 @@
-import Lex from '../Lex.png';
-import Vladimir from '../Vladimir.png';
+import Lex from '../Lex1.png';
+import Vladimir from '../Vladimir1.png';
 import Dmitriy from '../Dmitriy.png';
 import Vitaliy from '../Vitaliy.png';
 import Alexey from '../Alexey.png';
@@ -25,7 +25,7 @@ function Members() {
 <div className='story'>
     <img src={Lex} width='200px' height='200px' alt='photo' className='story-image' data-aos="flip-up"/>
     <div className='story-text'>
-        <h1 className='story-heading'>Йодо Алексей</h1>
+        <h1 className='story-heading'>Иодо Алексей</h1>
         <p className="story-paragraph">Вокалист. Автор песен. Звукорежиссер.
         Его талант стал центром притяжения группы. Так и сформировался постоянный для группы состав: вокал, гитара, бас, барабаны, клавиши.</p>
     </div>
@@ -51,7 +51,7 @@ function Members() {
     <img src={Dmitriy} width='200px' height='200px' alt='photo' className='story-image' data-aos="flip-up"/>
     <div className='story-text'>
         <h1 className='story-heading'>Воронин Дмитрий</h1>
-        <p className="story-paragraph">Тёмный,живущий среди Светлых,принимающий их обличаи. Хороший басист, немногословен, значит знает своё дело.</p>
+        <p className="story-paragraph">Тёмный,живущий среди Светлых, принимающий их обличаи. Хороший басист, немногословен, значит знает своё дело.</p>
     </div>
     </div>
         </div>
@@ -64,7 +64,7 @@ function Members() {
     <img src={Vitaliy} width='200px' height='200px' alt='photo' className='story-image' data-aos="flip-up"/>
      <div className='story-text'>
         <h1 className='story-heading'>Боровков Виталий</h1>
-        <p className="story-paragraph">Клавишник, текстовик, композитор, аранжировщик, тусовщик и стиляга 
+        <p className="story-paragraph">Клавишник, текстовик, композитор, аранжировщик, тусовщик и стиляга. 
 Проехал континент от Черного до Баренцева моря и от Западной Европы до Восточной Сибири. В основном работал с авторскими коллективами.</p>
     </div>
     </div>

@@ -12,7 +12,7 @@ import React from "react";
  
     <a href="https://vk.com/lex_iodoofficial" target="_blank"><img src="https://img.icons8.com/color/344/vk-com.png" className="icone_2" alt="ВК" /></a>
  
-    <a href="tel:+375295555555"><img src="https://img.icons8.com/color/344/apple-phone.png" className="icone_2" alt="Телефон" /></a> 
+    <a href="tel:+375295687859"><img src="https://img.icons8.com/color/344/apple-phone.png" className="icone_2" alt="Телефон" /></a> 
 
     
     </div>

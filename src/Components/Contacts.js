@@ -20,15 +20,22 @@ function Contacts() {
             <div className="Contacts-data-container">
                 <div className="Contacts-data-innerCont">
                     <h3 className="Contacts-data-header tel">+375295687859</h3>
-                    <p className="Contacts-data-par">viber</p>
-                    <p className="Contacts-data-par">Telegram</p>
-                    <p className="Contacts-data-par">whatsapp</p>
+                    <p className="Contacts-data-par contactText">viber</p>
+                    <p className="Contacts-data-par contactText">Telegram</p>
+                    <p className="Contacts-data-par contactText">whatsapp</p>
                 </div>
                 <div className="Contacts-data-innerCont">
                     <h3 className="Contacts-data-header">Сoциальные сети:</h3>
                     <p className="Contacts-data-par"><a href="https://www.instagram.com/iodo_band/" target="_blank"><img src="https://img.icons8.com/fluency/344/instagram-new.png" className="icone_2" alt="ВК" /></a></p>
                     <p className="Contacts-data-par"><a href="https://vk.com/lex_iodoofficial" target="_blank"><img src="https://img.icons8.com/color/344/vk-com.png" className="icone_2" alt="ВК" /></a></p>
                 </div>
+                <div className="Contacts-data-innerCont">
+                    <h3 className="Contacts-data-header">E-mail:</h3>
+                    <h3 className="Contacts-data-par contactText email">lexiodo@gmail.com</h3>
+                    <p className="Contacts-data-par"><a href="https://docs.google.com/document/d/1erYXWL608uTc39GG9x_ziWdx-fJvET20/edit?usp=sharing&ouid=108792388647078243201&rtpof=true&sd=true" className='doc'>Tech Raider Iodo band</a></p>
+                </div>
+                
+
                 <div className="Contacts-data-innerCont">
                     <h3 className="Contacts-data-header">Выступаем здесь:</h3>
             <ul className='sticker'>
@@ -46,9 +53,9 @@ function Contacts() {
             </li>
             </ul>
                 </div>
-            </div>
-
           
+
+                </div>
 
             </div>
         </div>

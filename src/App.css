@@ -99,13 +99,13 @@ nav {
     
     }
     .Link {
-      padding: 10px 40px;
+      padding: 10px 20px;
       text-decoration: none;
       text-transform: uppercase;
       font-weight: bold;
       color:  #afacb0;
       font-size: 20px;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
     }
     .Link:hover {
         color: #fff;
@@ -749,7 +749,7 @@ opacity: 0;
 /*Tribute*/
 
 .tributeTitle{
-    color: #dfc101;
+    color: #ffc107;
     letter-spacing: 2px;
     font-weight: bold;
     text-align: center;
@@ -757,7 +757,7 @@ opacity: 0;
     
 }
 .tributeLink{
-    color: #dfc101;
+    color: #ffc107;
 }
 
 
@@ -770,7 +770,26 @@ opacity: 0;
         opacity:1.0; 
     }
 
+    .doc{
+        color: #ffc107;
+        background-color: #141414;
+        padding: 10px;
+        border-radius: 10px;
+        opacity: 0.8;
+     
+    }
+    .doc:hover{
+        color: #fff;
+    }
 
+    .contactText{
+        font-size: 20px;
+    }
+    .email {
+        color: #000000;
+        font-weight: bold;
+        margin: 20px;
+    }
 @media all and (max-width: 1200px) {
   
     .story-bg {
@@ -779,6 +798,11 @@ opacity: 0;
     .icone_2 {
         margin-bottom: 8px;
     }
+    .Link {
+        padding: 10px 10px;
+        font-size: 15px;
+        letter-spacing: 1px;
+      }
 }
 @media all and (max-width: 1050px) {
     nav {
@@ -844,14 +868,11 @@ opacity: 0;
     }
     .story-heading {
         text-align: center;
+        font-size: 20px;
+        font-weight: bold;
     }
-    .story-paragraph {
-       text-align:justify;
-    }
-    .par4 {
-      text-align:justify;
-          
-      }
+    
+   
       .tributePhoto:hover{
     display: none;
     }

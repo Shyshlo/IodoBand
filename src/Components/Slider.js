@@ -8,6 +8,8 @@ import three from '../slider3.jpg';
 
 
 
+
+
  function Slider() {
 
     return (
@@ -47,8 +49,14 @@ import three from '../slider3.jpg';
     </Carousel.Item>
     
     </Carousel>
+
+
     </div>
+
+   
     
 )}
 
+
 export default Slider;
+
