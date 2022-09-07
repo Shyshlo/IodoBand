@@ -208,6 +208,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color:  #ffc107;;
 }
 .story-bg {
     background-color:#e5e3ef;
@@ -871,7 +872,7 @@ opacity: 0;
         font-size: 20px;
         font-weight: bold;
     }
-    
+   
    
       .tributePhoto:hover{
     display: none;

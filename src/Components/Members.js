@@ -12,12 +12,12 @@ function Members() {
     return(
     <div>
 <div class="stories">
-            <div class="video-container">
+            {/*<div class="video-container">
                 <video class="bg-video" autoPlay muted loop>
                     <source src={video} type="video/mp4"/>
                 </video>
             </div> 
-
+    */}
 
 <div className='stories-wrapper'>
 
